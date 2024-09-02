@@ -1,0 +1,13 @@
+.border-right {
+    border-right: 1px solid #dee2e6;
+}
+
+.chat-list {
+    display: flex;
+    flex-direction: column;
+    height: 790px;
+    overflow-y: scroll;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}

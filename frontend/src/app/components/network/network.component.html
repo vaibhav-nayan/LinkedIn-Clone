@@ -1,0 +1,9 @@
+<div *ngIf="friends" class="card">
+  <div class="card-header">
+    {{ friends.length }} connections
+  </div>
+  <div class="card-body connection-list">
+    <app-user-row *ngFor="let friend of friends" [user]="friend"></app-user-row>
+  </div>
+</div>
+{{ errorMsg }}

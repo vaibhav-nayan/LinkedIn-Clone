@@ -1,0 +1,4 @@
+.connection-list {
+    max-height: 760px;
+    overflow-y: scroll;
+}
